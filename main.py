@@ -1,6 +1,10 @@
+# Author: Hasan Shehabi
+# Date 23/8/2025
+
 import os, re, csv, time, requests, spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
+#fetch creds from secrets_shhh
 try:
     from secrets_shhh import CLIENT_ID, CLIENT_SECRET, REDIRECT_URI
 except ImportError:
